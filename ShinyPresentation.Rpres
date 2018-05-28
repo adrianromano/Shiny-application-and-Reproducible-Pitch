@@ -1,0 +1,42 @@
+Shiny Application and Reproducible Pitch
+========================================================
+author: Adrian R Angkawijaya
+date: 5/27/2018
+autosize: true
+
+The Project
+========================================================
+
+This is the final course project for the Developing Data Products by Coursera. It involves building a shiny application using the shiny package in R. 
+
+The goal of the project is to make the following:
+
+1. Create a Shiny application and deploy it on Rstudio's servers. 
+2. Create a Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+Body Mass Index (BMI)
+========================================================
+
+The body mass index is a measured value that can be used to indicate whether an individual has a healthy body mass and is represented by this following formula:
+
+BMI = Weight (kg) / Height (m)^2
+
+More information on this specific subject can be viewed from the cdc.gov [website](https://www.cdc.gov/healthyweight/assessing/bmi/index.html)
+
+The Shiny App
+========================================================
+The application is used to calculate the user's BMI by inputting their gender, age, weight and height. The generated result will also tells the user what body fat category they are in. 
+
+The app is available to use [here](https://adrianromano.shinyapps.io/my_first_shiny_app/).
+
+The Code
+========================================================
+
+The code for the application can be found on this github [link](https://github.com/adrianromano/Shiny-application-and-Reproducible-Pitch). 
+
+They are located in the ui.R and server.R sections in the repository. 
+
+* ui.R is the R code for the user interface of the project.
+* server.R is the R code to process the data which has the result shown in the user interface.
+
+
